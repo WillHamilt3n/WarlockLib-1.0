@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Access">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Evasion">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-7890-A1B2-C3D4E5F67890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{B2C3D4E5-F6A7-8901-B2C3-D4E5F6A78901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{C3D4E5F6-A7B8-9012-C3D4-E5F6A7B89012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Access\DMA.h">
+      <Filter>Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Access\Driver.h">
+      <Filter>Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Access\Hypervisor.h">
+      <Filter>Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Memory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Process.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Scanner.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Evasion\Evasion.h">
+      <Filter>Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MemoryLib.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SimpleCheat.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ImGuiMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Overlay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\XAMLMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IO.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Access\DMA.cpp">
+      <Filter>Access</Filter>
+    </ClCompile>
+    <ClCompile Include="Access\Driver.cpp">
+      <Filter>Access</Filter>
+    </ClCompile>
+    <ClCompile Include="Access\Hypervisor.cpp">
+      <Filter>Access</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Memory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Process.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Scanner.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Evasion\Evasion.cpp">
+      <Filter>Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Overlay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\IO.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
